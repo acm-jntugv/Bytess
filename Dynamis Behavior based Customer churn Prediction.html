@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            transform: scale(1);
+            transition: transform 0.3s;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .sub-heading {
+            color: #007bff;
+            font-size: 27px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px 0;
+            animation: slide-up 1s ease-out;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Dynamis Behavior based Customer churn Prediction
+    </h1>
+</div>
+
+<div class="container">
+    <div class="image-container">
+        <img src="data:image/jpeg;base64,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" alt="Your Image" class="image">
+        <p>Venkata Rajat Kumar Vuppala Pursuing his Masters in the stream of Data Science at JNTU Gurajada Vizianagaram.
+            Email: vvenkatarajat@gmail.com
+            
+            Customer behavior plays a vital role in customer service sector to accurately predict the customer churn. Customer churn arises when the customer does not want to continue their relations with the company during certain time frame. As there is increase in competition among customer service sector, it has dominant to predict the Dynamic behavior of the customer. We have adapted advent of the deep learning paradigms namely LSTM and variants of LSTM based models to predict the churn on daily dynamic behavior of the customer. The predictive performance of these models evaluated on dataset collected from mobile operator. The results showed that the daily models significantly outperform previously developed models in terms of predicting churners earlier and more accurately.
+            Keywords : Churn Prediction; Mobile Telecom; Deep Learning; Dynmic behavior</p>
+    </div>
+
+    <div class="content">
+        <h2 class="sub-heading">Introduction</h2>
+        
+        <p>Customer churn refers to the situation where by a customer leaves a service provider. In simple terms, churn is defined as cancellation of subscription by a client to a service they have been using. Churn Prediction is essential in predicting the clients most likely to unsubscribe based on their usage of services like company tariffs, poor customer care or frequent technical issues, helping organizations to focus more on the customers with high risk of leaving.Customer churn happens when customers decide to not continue purchasing products/services from an organization and end their association. It is an integral parameter for the organization since acquiring a new customer could cost almost 7 times more than retaining an existing customer. Customer churn can prove to be a roadblock for an exponentially growing organization and a retention strategy should be decided in order to avoid an increase in customer churn rates.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Dive</h2>
+        
+        <p>The ability to be able to predict that a certain customer is at a very high risk of churning, while there is still some time to do something significant about it, itself represents a great additional potential revenue source for any business. Since the customer is the major source of profit, a method to promptly manage customer churn gains vital significance for the survival and development of any telecommunication company. For many telecoms companies, figuring out how to deal with churn is turning out to be the key for continued existence of their organizations. In order to learn more about this issue and come up with a workable solution, research and implementations done in the past by other authors were examined. Churn studies are primarily focused on industries with contractual settings, such as telecommunications, banking, insurance, etc., where a consumer must sign a contract in order to use the service. As a result, the company labels a customer who cancels their contract as a churner, as opposed to a customer who keeps using the company’s services and is recognized as a non-churner. The dataset for this research is based on the telecom statistics gathered from the Francisco gallery of bigml. com will be the dataset we use for the majority of our discussion in this paper. This consists of 3333 examples and 20 qualities, along with a final categorization of either ”Churned” or ”Not Churned” for each client, is based on telecom facts acquired from bigml.com's Francisco gallery. There are 483 churns and 2,850 non churn customers in the dataset. This dataset is also used to predict the customer’s behavior. It gives basic information about the customers service usage as well as information on their membership, both of which are useful for training the base model. Each record is described by the following attributes i.e. churn as class label, area, service calls, evening calls, evening charge, minutes spend in the evening, day calls, day charge, minutes spend in day time, international calls, international charge, minutes spend in international calls and finally it includes night calls, night charge, minutes spend in nights. The dataset is divided into training set and test set. The deep neural network is trained on the training data and tested on the test data.
+</p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Drawbacks</h2>
+        
+        <p>Previous works on churn prediction focused on predicting churn monthly based on static or monthly dynamic behavior. Two main drawbacks can be drawn from these works; 1. Predicting churn monthly is late for customers who decided to leave at the beginning of the last month because the customer will be identified as churners by the monthly model at the next month. 2. Considering the monthly behavior ignores the changes in customer’s behavior over days of the month and this may reduce the discriminative ability of the prediction model, and thus, its predictive performance.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">About
+        </h2>
+        
+        <p>In this study, we attempt to forecast daily levels of customer churn using dynamic shifts in daily activity. As a solution, we used a multivariate time series to represent the customer’s daily behavior and addressed the problem of daily churn prediction using this representation. Meaningful features from timeseries data are extracted and then fed to a traditional machine learning model, such as Random Forest, to make predictions. Deep Learning models like LSTM and its Variants, which include classic LSTM, stacked LSTM, bidirectional LSTM, and GRU, will learn the representative features from the multivariate time series and simultaneously predict churn. The practical implementation of this study is suggested by our findings, which show that the deep learning models we suggest are operationally effective and forecast churners earlier and more precisely than the machine learning models and monthly models.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Author</h2>
+        
+        <p>Venkata Rajat Kumar Vuppala is currently pursuing his Masters in the stream of Data Science at JNTU Gurajada Vizianagaram and completed his bachelors at Raghu Institute of Technology, Visakhapatnam. His fascination is towards latest advancements in the domain of Deep Learning and Machine Learning and his current research interest lie in Data Science, Machine Learning and Deep Learning.</p>
+    </div>
+</div>
+
+</body>
+</html>

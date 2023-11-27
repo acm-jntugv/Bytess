@@ -1,0 +1,1334 @@
+
+
+
+Simplifying AI Development for
+Data Scientists and Beyond with
+No-code AI
+Ramesh Damma
+Co-Founder, Chief Product & Strategy Officer, Soulpage IT Solutions Pvt Ltd. 
+Email: ramesh@soulpageit.com
+
+Artificial intelligence (AI) has become an integral part
+of many industries, revolutionizing businesses and
+transforming various aspects of our lives. However,
+developing AI models traditionally required expertise
+in programming, mathematics, and data science.
+This presented a significant barrier for individuals and
+organizations who wanted to leverage AI but lacked the
+necessary technical skills.
+
+Introducing “no-code AI,” a powerful approach that
+simplifies AI development and makes it accessible to a
+wider audience. Traditional AI development often involves
+writing code from scratch, debugging, and iterating
+multiple times. With no-code AI, the iterative process
+becomes faster and more intuitive. Data scientists
+can quickly prototype and experiment with different
+configurations, algorithms, and parameters, enabling
+them to iterate rapidly and refine their models. This
+accelerated development cycle significantly reduces the
+time to build and deploy AI solutions. This brings them to
+market faster and unlocks their benefits sooner.
+
+No-code AI platforms are designed to enable individuals
+with limited or no coding experience to build and deploy
+AI models without writing complex code. These platforms
+provide a user-friendly interface, drag-and-drop
+functionalities, and pre-built AI components that can
+be assembled and configured to create sophisticated AI
+applications. By removing coding, no-code AI empowers
+data scientists and non-technical users alike to harness AI
+power and apply it to their specific domains.
+These platforms also democratize AI development
+by lowering the entry barrier for non-technical users.
+Professionals from various domains, such as marketing,
+sales, operations, and customer service, who may
+not possess extensive coding skills, can now actively
+participate in AI projects. They can leverage no-code AI
+platforms to develop AI models tailored to their specific
+needs, extracting valuable insights from data and making
+data-driven decisions without relying solely on data
+science teams. This democratization of AI empowers
+
+organizations to foster a culture of innovation and datadriven decision-making throughout their workforce.
+Another key advantage of no-code AI is its emphasis
+on collaboration and knowledge sharing. No-code AI
+platforms often include features that enable teams to
+work together on AI projects. Data scientists, subject
+matter experts, and business stakeholders can collaborate
+on the platform, sharing ideas, data, and insights. This
+collaborative environment encourages interdisciplinary
+collaboration, fostering a deeper understanding of the
+problem at hand. It also facilitates the development of
+more accurate and impactful AI models. By democratizing
+AI development and involving diverse perspectives,
+organizations can harness their teams’ collective
+intelligence and unlock new possibilities.
+However, it’s imperative to acknowledge that no-code
+AI platforms have their limitations. While they make AI
+development more accessible, they may not offer the
+same level of customization and fine-tuning as traditional
+coding approaches. Advanced AI applications that
+require highly specialized algorithms or complex data
+manipulations may still benefit from traditional coding
+methods. Additionally, as with any AI development, it’s
+crucial to address ethical considerations, data privacy,
+and bias in models built using no-code AI platforms.
+Responsible AI development practices should be followed
+to ensure AI technology ethics and fair use.
+Here are some additional details about the advantages
+and limitations of no-code AI platforms:
+
+Advantages
+
+
+Increased accessibility: No-code AI platforms make
+AI development more accessible to a wider audience,
+including individuals and organizations with limited
+or no coding experience.
+
+
+
+Faster development cycles: No-code AI platforms
+can help to accelerate the development cycle of
+AI projects, bringing them to market faster and
+unlocking their benefits sooner.
+
+August 2023 | 27
+www.bytesthenewsletter.com
+
+Bytes
+
+
+Increased collaboration: No-code AI platforms can
+help to foster collaboration and knowledge sharing
+among teams working on AI projects.
+
+
+
+Increased productivity: No-code AI tools can help
+businesses automate tasks and processes, which can
+free up employees to focus on more strategic work.
+
+
+
+Improved decision-making: No-code AI tools can
+help businesses gain valuable insights from data,
+which can be used to make better decisions.
+
+
+
+Reduced costs: No-code AI tools can help businesses
+save money on labor costs and other expenses.
+
+Limitations
+
+
+Limited customization: No-code AI platforms may
+not offer the same level of customization and finetuning as traditional coding approaches.
+
+
+
+Data privacy and bias: It’s important to address
+data privacy and bias concerns when developing AI
+models using no-code AI platforms.
+
+No-code AI Tools in Action
+In today’s market, there are many no-code AI tools, each
+with its own strengths and weaknesses. The following are
+some of the most popular options:
+
+Google Cloud AutoML
+Google Cloud AutoML is a leading no-code AI platform
+that enables users to build custom machine learning
+models without extensive coding knowledge. It offers a
+range of pre-trained models and an intuitive graphical
+interface that allows users to upload their own data, train
+models, and deploy them with ease. AutoML supports
+various AI tasks, including image recognition, natural
+language processing, and tabular data analysis. Its
+automated features make it particularly useful for users
+without deep machine-learning expertise.
+
+Microsoft Azure Machine Learning
+Microsoft Azure Machine Learning is a comprehensive
+cloud-based platform that offers both no-code and
+low-code AI development capabilities. With a userfriendly interface and drag-and-drop functionality, users
+can create and deploy AI models quickly. The platform
+provides a wide range of tools, including automated
+machine learning, data preparation, and model
+deployment. Azure Machine Learning supports multiple
+programming languages and integrates seamlessly with
+popular Microsoft services, making it a versatile choice for
+AI development.
+
+IBM Watson Studio
+IBM Watson Studio is a powerful no-code AI platform
+that empowers users to build and deploy AI models
+using a visual interface. It offers a suite of tools for data
+preparation, model development, and deployment.
+Watson Studio supports various AI techniques, including
+machine learning, deep learning, and natural language
+processing. The platform provides pre-built model
+templates, simplifying the process for beginners and
+allowing advanced users to customize their models using
+Python or R.
+
+DataRobot
+DataRobot is a cloud-based platform that helps businesses
+build and deploy machine learning models without any
+coding experience. It offers a wide range of features,
+including data preparation, feature engineering, model
+training, and model deployment.
+
+Clarifai
+Clarifai is another cloud-based platform that helps
+businesses build and deploy AI models. It offers a wide
+range of features, including image classification, object
+detection, and natural language processing.
+It is important to consider your specific needs and
+requirements when choosing a no-code AI tool. Some
+factors to consider include the type of AI models you want
+to build, the amount of data you have, and your budget.
+
+DeepLobe
+DeepLobe is a powerful no-code AI platform that simplifies
+AI development and makes it accessible to both technical
+and non-technical users. With its intuitive interface,
+Computer Vision, NLP, and Text Analytics capabilities, pretrained models, and collaboration features, DeepLobe
+empowers users to build and deploy AI models with ease.
+DeepLobe prioritizes the comfort of use and aims to
+make AI development accessible to a wide range of users.
+Its intuitive interface and no-code approach eliminate
+the need for extensive coding knowledge, enabling data
+scientists, domain experts, and business professionals to
+participate in AI projects actively.
+DeepLobe provides a collection of pre-built model
+templates for common AI tasks, including demography
+recognition, content moderation, face detection, facial
+expression recognition, sentiment analysis, PII data
+Extraction, auto-table extractor, and more. Users can start
+testing these models on the platform with their data and
+can integrate them into their applications using hosted
+APIs.This saves time and effort, especially for users who
+are new to AI development & deployment.
+
+28 | August 2023
+www.bytesthenewsletter.com
+
+DeepLobe supports custom-trained models for object
+detection, OCR, Image Segmentation, and Image
+Classification. Users can train their usecase specific
+model with their data using an inbuilt annotation tool
+and can integrate it into their current workflows using
+API endpoints. This allows users to quickly implement
+and scale their AI solutions without dealing with complex
+deployment processes.
+
+utilizes no-code AI tools to help retailers
+optimize their pricing strategies.
+By analyzing customer data, market trends, and
+competitor pricing, CommerceAI enables retailers to
+dynamically adjust prices and maximize profitability,
+all without requiring coding skills.
+3.
+
+Finance: Advise.AI offers a no-code AI platform
+for financial institutions to automate customer
+support and improve fraud detection. By using
+natural language processing and machine learning
+algorithms, financial organizations can develop
+chatbots, automate responses, and identify fraudulent
+transactions, enhancing customer experience and
+security.
+
+4.
+
+Marketing: Unbounce, a landing page builder,
+incorporates no-code AI to help marketers improve
+their landing page performance. By analyzing user
+behavior and conversion data, Unbounce’s AI-driven
+tools provide recommendations on design, content,
+and layout optimization, empowering marketers to
+create high-converting landing pages.
+
+5.
+
+Manufacturing: Sight Machine provides a no-code AI
+platform for manufacturers to optimize production
+processes. By analyzing data from sensors and
+machines, their platform detects anomalies predicts
+equipment failures, and optimizes production
+workflows, enhancing efficiency and reducing
+downtime.
+
+6.
+
+Education: Kahoot!, an educational platform, utilizes
+no-code AI tools to develop personalized learning
+experiences. Their platform uses machine learning
+algorithms to adapt quizzes and educational content
+to individual students’ needs, improving engagement
+and knowledge retention.
+
+7.
+
+Human Resources: Mya Systems offers a no-code
+AI tool for recruitment automation. Their AI chatbot
+assists in screening job applicants, scheduling
+interviews, and providing candidate feedback,
+streamlining the hiring process and saving recruiters’
+time.
+
+Dflux
+Dflux is extensively designed to perform end-to-end
+data science, data engineering, and data analysis tasks
+including visualization and dashboard building with low
+to no-code AI and ML expertise for structured data. Dflux
+offers a visual interface that allows users to construct AI
+models using a drag-and-drop approach. Users can select
+from a library of pre-built AI components, such as data
+preprocessing modules, machine learning algorithms,
+and evaluation metrics. They can then connect these
+components together to create a customized AI workflow.
+It includes features like automatic feature engineering,
+hyperparameter optimization, and model selection.
+Dflux simplifies the model-building process, making it
+more accessible to users with limited machine-learning
+expertise.
+Dflux includes collaboration features that enable teams
+to work together on AI projects. Users can share models,
+workflows, and data with their colleagues, fostering
+collaboration and knowledge sharing within the platform.
+This promotes interdisciplinary collaboration, allowing
+domain experts, data scientists, and business stakeholders
+to contribute to the AI development process.
+
+Use Cases and Success Stories
+No-code AI tools are making a significant impact in a
+diverse range of industries, from healthcare and retail to
+finance and education. Organizations use these tools to
+automate processes, gain valuable insights, and enhance
+decision-making. No-code AI empowers professionals
+from various backgrounds to tap into the potential of AI
+and drive innovation in their industries.
+Here are some real-world examples of successful
+utilization of no-code AI tools in different domains
+1.
+
+2.
+
+Healthcare: CarePredict, a healthcare technology
+company, has leveraged no-code AI platforms to
+develop predictive models for elder care. By analyzing
+data from wearable devices, they can detect changes
+in activity patterns and predict potential health issues
+or falls, allowing caregivers to intervene proactively.
+Retail: CommerceAI, a retail analytics platform,
+
+The Future of No-code AI
+The future potential of no-code AI is vast and holds
+exciting possibilities for innovation and problem-solving.
+Here are some areas where no-code AI can make a
+significant impact:
+
+
+Democratization of AI
+No-code AI tools will continue to democratize AI
+development, allowing individuals and organizations
+
+August 2023 | 29
+www.bytesthenewsletter.com
+
+Bytes
+across different domains to leverage AI technology.
+This will foster innovation, as more people with
+diverse backgrounds and perspectives can actively
+participate in AI-driven problem-solving.
+
+
+Rapid Prototyping and Experimentation
+No-code AI platforms enable rapid prototyping
+and experimentation, reducing the time and effort
+required to test and iterate on AI models. This
+will encourage innovation by facilitating a quick
+exploration of ideas and hypotheses, leading to more
+efficient problem-solving processes.
+
+
+
+Empowering Domain Experts
+No-code AI empowers domain experts who possess
+deep domain knowledge but may lack coding skills.
+By allowing them to build AI models without extensive
+programming expertise, no-code AI platforms enable
+these experts to leverage their domain knowledge
+effectively, leading to more contextually relevant and
+impactful AI solutions.
+
+
+
+
+
+AI for Small and Medium-sized Enterprises (SMEs)
+
+In conclusion, no-code AI is transforming AI development
+by democratizing access to powerful technology. By
+eliminating coding complexity barriers, no-code AI
+platforms enable individuals and organizations from
+diverse backgrounds to participate in AI-driven innovation.
+These platforms provide user-friendly interfaces,
+automation capabilities, and integration with data science
+ecosystems, making AI development more accessible
+than ever before.
+The transformative role of no-code AI is evident in its ability
+to empower domain experts, facilitate rapid prototyping
+and experimentation, and bridge the gap between business
+and technology. It opens up opportunities for small and
+medium-sized enterprises, fosters collaboration, and
+promotes AI ethics and transparency.
+As no-code AI evolves, we can expect enhanced
+automation, seamless integration of advanced techniques
+like natural language processing and deep learning, and
+improved explainability and interpretability. No-code AI
+holds immense potential to drive innovation and problemsolving across industries and domains.
+
+No-code AI levels the playing field for SMEs by
+providing access to AI capabilities without the need
+for large budgets or dedicated data science teams.
+This will enable SMEs to adopt AI technologies,
+enhance their operations, and gain a competitive
+edge in the market.
+
+The democratization of AI development through no-code
+platforms is not just about making AI accessible; it is about
+unlocking the creativity, insights, and problem-solving
+abilities of a diverse range of individuals and organizations.
+By democratizing AI, we can harness its transformative
+power to address real-world challenges, drive innovation,
+and create a more inclusive and equitable future.
+
+Bridging the Gap between Business and Technology
+
+References:
+
+No-code AI platforms facilitate better collaboration
+between business stakeholders and technical teams.
+Business professionals can actively participate in
+the AI development process, leading to a stronger
+alignment between business objectives and AI
+solutions. This collaboration will drive innovation
+and create AI applications that address real-world
+problems effectively
+
+[1]
+
+When The Rise Of AI Meets The Ease Of No-Code
+
+[2]
+
+The 10 Best Examples Of Low-Code And No-Code AI
+
+[3]
+
+Sight Machine: Using AI to Redefine Manufacturing Analytics
+
+[4]
+
+Mya Systems – “Using conversational AI to solve talent
+acquisition challenges
+
+About the Authors
+Mr. Ramesh Damma, is a Co-founder, and Chief Product Officer at Soulpage IT Solution, a data science
+technology company that helps organizations adopt AI by harnessing their data. As the Chief Product Officer
+for DeepLobe (One of the products of Soulpage), a no-code AI platform, He have been responsible for driving
+product design, road-map and go-to-market strategy for the company.
+His experience in the technology industry has given me a deep understanding of the challenges faced by
+startups. He is passionate about solving problems and guiding budding entrepreneurs in their journey towards
+success. He believe in fostering a collaborative and supportive environment that encourages creativity and
+innovation.
+Before founding Soulpage in 2018, I spent nine years at Bank of America in various technology roles, where he
+honed my skills in managing complex projects and delivering quality solutions to meet business needs.
+
+30 | August 2023
+www.bytesthenewsletter.com
+
+Method level bug prediction:
+An overview
+SATTI. SONIYA
+Master’s in the specialization of Data Science at JNTUGV, College of Engineering, Vizianagaram.
+Email: soniyaanu80@gmail.com
+
+What is a bug?
+A bug is a flaw, mistake, or failure in the program or system
+being developed that leads to unanticipated outcomes.
+
+each module’s level of complexity, interdependencies,
+and previous bug data.
+
+What is software bug prediction?
+
+Method-level bug prediction: Within a module, methods
+are discrete operations or steps that carry out specific
+responsibilities. At the method level, bug predictions are
+made by looking at variables including method complexity,
+code metrics, parameter usage, and previously reported
+bugs for each method. The likelihood of defects in
+particular approaches can be predicted by looking at
+these parameters.
+
+The modules that are defect-prone and need thorough
+testing are identified using software defect prediction.
+In this manner, it is possible to use the testing resources
+effectively while yet violating the limitations.
+
+Why software defect prediction is important?
+To boost software reliability, software defect prediction
+has grown to be an important area of study. The usage
+of program defect predictions helps developers to spot
+prospective issues and to make the most use of testing
+resources to increase program dependability.
+
+Context
+Researchers have been working to forecast the presence
+of software defects for many years. The studies attempt to
+forecast problems in various software structures, ranging
+from single files (Units) and groups of files (Packages)
+as well as larger systems (Modules). Very few research
+have examined the possibility of predicting issues with
+methods, which are even smaller structures.
+
+Different levels of bugs predictions
+Bug predictions can be done at various levels like File
+level, package level, Module level, and Method level
+File-level bug prediction: Bug predictions at the file level
+concentrate on specific source code files inside a project.
+Package-level bug prediction: This makes it easier to spot
+packages that are more likely to have issues in them.
+Module-level bug prediction: Within a software system,
+modules represent logical units of functionality. At the
+module level, bug predictions concentrate on evaluating
+
+Method-level bug prediction approach was applied to
+a large-scale project named Avro available at the Git
+hub repository. Ran Mo, Shaozhi Wei, Qiong Feng, and
+Zengyang Li [1] first provided a set of code metrics and
+history measures to be the attributes for prediction; next,
+they labeled data samples (i.e., methods) as being bugprone or not; last, they proposed a set of code metrics
+and history measurements; To automate the calculation
+of the aforementioned history measures and code
+metrics, they developed the Fine-grained Code Metrics
+and History Measures Extractor (FCHE)[1]. We used tenfold cross-validation to develop and test bug prediction
+models using Random Forest. For this work, we conduct
+predictions by using a Weka tool, which is a collection of
+machine learning algorithms. To assess the effectiveness
+of our bug prediction model at the method level, we
+applied AUC or Area Under the ROC Curve.
+WEKA - Waikato environment for knowledge analysis
+
+About Weka
+Weka is an ensemble of machine learning algorithms. It
+has tools for preprocessing, classification, Clustering,
+association, selection of attributes and visualization. Weka
+tool is easy to preprocess any data from Files, URLs, and
+databases. And this tool is used to compare our results
+with other classifiers very fastly and accurately.
+
+August 2023 | 31
+www.bytesthenewsletter.com
+
+Bytes
+For this work start the WEKA GUI Chooser application
+
+Then click on the explorer button, when opening the
+explorer, preprocess tab is activated. Preprocess is the first
+step in machine learning, then select a file and process
+it and make it ready for applying the machine learning
+algorithms.
+
+After opening the file, the Current relation sub-window
+the name of the file that is loaded and there are 619
+instances and the dataset contains 42 attributes.
+
+The avro dataset contains 42 attributes which include
+Method name, code metrics(21) and history measures(19),
+and bug-prone which are displayed on the left side.
+
+Test data
+Click on the Classify tab, and select Random Forest to
+create models for method-level bug prediction. A random
+forest is a collection of decision trees that may be used
+to create classification prediction models. Random forest
+uses decision trees to improve accuracy and reduce overfitting.
+
+Click on the open file button. A directory window opens
+
+Click on the start button to start classification With
+Random Forest, we employed the ten-fold crossvalidation method to train and validate bug prediction
+models. The cross-validation technique divides the
+original data into a training set and a test set to determine
+how well a predictive model performs in practice. The
+original dataset will be randomly split into 10 equal-sized
+sections for ten-fold cross-validation. The technique will
+
+32 | August 2023
+www.bytesthenewsletter.com
+
+then be applied iteratively ten times, with nine subsets
+being utilized for training and one for validation. A subset
+will only be utilized precisely once as the validation data
+during each iteration. A single estimation would then be
+presented using the results of 10 folds.
+
+Comparing with other datasets
+Dataset
+
+Precision
+
+recall
+
+F-measure
+
+MCC
+
+ROC area
+
+calcite_
+result
+
+0.652
+
+0.649
+
+0.644
+
+0.297
+
+0.710
+
+flume_
+result
+
+0.725
+
+0.721
+
+0.693
+
+0.368
+
+0.800
+
+zookeeper_
+result
+
+0.697
+
+0.694
+
+0.695
+
+0.389
+
+0.793
+
+A common metric for unbalanced datasets is the AUCROC. The performance of the model in separating positive
+and negative samples is better indicated by a higher AUCROC score.
+Accuracy may not be the most reliable metric for assessing
+model performance when working with datasets that are
+imbalanced, where the distribution of samples across
+classes is noticeably unbalanced.
+To assess the accuracy of our bug prediction models at
+the technique level, we utilized AUC or Area Under ROC
+Curve. When prediction models are used on uneven data,
+transitional measures like Accuracy may not perform very
+well. The Area Under ROC Curve (AUC) could accurately
+depict the performance of prediction models developed
+on unbalanced data, which is similar to our dataset where
+the distributions of two classes (bug-prone or not bugprone) are imbalanced.
+
+Results
+Going into the analysis of these results shows the Roc area
+as 0.808 and According to the prior studies, an AUC value
+larger than or equal to 0.7 indicates the best prediction.
+According to the confusion matrix, the correctly classified
+instances are 462 and the incorrectly classified instances
+are 157.
+As per the results, the Area under the Roc curve gives the
+best prediction results when the dataset is imbalanced.
+Dataset
+
+Precision
+
+recall
+
+F-measure
+
+MCC
+
+ROC area
+
+Avro_
+result
+
+0.754
+
+0.746
+
+0.724
+
+0.432
+
+0.808
+
+Comparison of different classifiers in terms of AUC
+Classifiers
+
+Datasets
+Avro_result
+
+calcite_
+result
+
+flume_
+result
+
+zookeeper_
+result
+
+Logistic
+
+0.714
+
+0.658
+
+0.736
+
+0.746
+
+Bayes
+
+0.704
+
+0.624
+
+0.735
+
+0.725
+
+Decision
+tree
+
+0.720
+
+0.660
+
+0.682
+
+0.714
+
+All AUC scores are higher than 0.5, which means that
+the proposed classifiers could achieve acceptable results.
+The Random Forest algorithm had the best result with the
+given datasets.
+
+References
+[1]
+
+“An exploratory study of bug prediction at the method
+level,” An exploratory study of bug prediction at the method
+level - ScienceDirect, Dec. 07, 2021. [Online]. Available:
+https://www.sciencedirect.com/science/article/abs/pii/
+S0950584921002330?via%3Dihub
+
+[2]
+
+“Software defect prediction using cost-sensitive neural
+network,” Software defect prediction using a cost-sensitive
+neural network - ScienceDirect, Apr. 30, 2015. [Online].
+Available: https://www.sciencedirect.com/science/article/
+abs/pii/S1568494615002720
+
+About the Authors
+Satti Soniya, currently pursuing her Master’s in the specialization of Data Science at JNTUGV, college
+of Engineering, Vizianagaram. She is completed her B.Tech at West Godavari Institute of Science
+and Engineering College. She is good at Python, Deep Learning and Machine learning. She is always
+interested to learn new technologies and better approaches to upgrade her skills.
+
+August 2023 | 33
+www.bytesthenewsletter.com
+
+Bytes
+
+Application Development and
+Management
+G.L.V. Prasad
+Bachelors in Information Technology from JNTU-GV. Email: prasadchowdary2727@gmail.com
+
+DATA
+Application development and management refers to the
+process of creating, maintaining, and supporting software
+applications throughout their lifecycle. It involves various
+stages, including planning, designing, coding, testing,
+deployment, and ongoing maintenance.
+In application development, software developers use
+programming languages and tools to build applications
+that meet specific requirements. This involves writing
+code, implementing functionalities, and ensuring the
+application works correctly.
+Application management focuses on the ongoing
+support and maintenance of the developed applications.
+This includes tasks such as monitoring application
+performance, troubleshooting issues, implementing
+updates and security patches, and providing user support.
+Both application development and management require
+collaboration between developers, project managers,
+quality assurance teams, and other stakeholders to ensure
+successful application delivery and smooth operation.
+Organizations may also use project management
+methodologies, such as Agile or Waterfall, to streamline
+the development and management processes.
+
+3.
+
+Frameworks and Libraries: Frameworks like React,
+Angular, Django, Flask, .NET, and Spring offer prebuilt components and structures to accelerate
+development and simplify application management.
+
+4.
+
+Databases: Relational databases like MySQL,
+PostgreSQL, Oracle, and Microsoft SQL Server, as
+well as NoSQL databases
+
+5.
+
+Cloud Platforms: Cloud services like Amazon
+Web Services (AWS), Microsoft Azure, and Google
+Cloud Platform offer infrastructure and services for
+application deployment, scalability, and management.
+
+6.
+
+Version Control Systems: Tools like Git, SVN, and
+Mercurial help manage source code versions, enable
+collaboration, and facilitate code merging and
+branching.
+
+7.
+
+Testing and Bug Tracking: Technologies such as
+JUnit, Selenium, TestNG, and Bugzilla assist in
+automated testing, test case management, and bug
+tracking.
+
+8.
+
+DevOps Tools: Continuous Integration/Continuous
+Deployment (CI/CD) tools like Jenkins, Travis CI, and
+GitLab CI/CD automate build, testing, and deployment
+processes for efficient application management.
+
+9.
+
+Containerization: Technologies like Docker and
+Kubernetes facilitate the creation, deployment, and
+management of containers to enhance application
+portability and scalability.
+
+Requirements of ADM
+There are numerous technologies used in application
+development and management, and the specific ones
+employed can vary based on the requirements, platform,
+and development approach. However, here are some
+commonly used technologies in this domain:
+1.
+
+Programming Languages: Popular languages for
+application development include Java, Python, C#,
+JavaScript, Swift, and Kotlin.
+
+2.
+
+Integrated Development Environments (IDEs): IDEs
+such as Eclipse, Visual Studio, Xcode, and Android
+Studio provide tools and features to aid developers in
+coding, debugging, and testing applications.
+
+10. Monitoring and Analytics: Tools like Prometheus,
+ELK Stack (Elasticsearch, Logstash, Kibana), and
+New Relic provide monitoring, logging, and analytics
+capabilities to track application performance, identify
+issues, and optimize resource utilization.
+These are just a few examples of the technologies
+commonly used in application development and
+management. The specific tech stack chosen depends
+
+34 | August 2023
+www.bytesthenewsletter.com
+
+on factors such as the application’s requirements,
+target platform, scalability needs, and the organization’s
+preferences.
+
+Process
+ADM, or Application Development and Management,
+involves a series of processes to create, maintain, and
+support software applications. Here is an overview of how
+ADM typically works:
+1.
+
+Requirements Gathering: The process begins with
+gathering requirements from stakeholders, including
+business users, clients, and project managers. This
+helps in understanding the objectives, functionalities,
+and constraints of the application.
+
+2.
+
+Planning and Design: Based on the requirements,
+the project team creates a plan outlining the scope,
+timelines, resources, and technical approach for the
+application development. This phase also involves
+designing the architecture, user interfaces, and
+database structure.
+
+3.
+
+Development: Developers write code based
+on the design and architecture specifications
+using
+appropriate
+programming
+languages,
+frameworks, and tools. They implement the required
+functionalities, perform unit testing, and integrate
+different components.
+
+4.
+
+5.
+
+Testing: Quality assurance teams conduct various
+types of testing, including unit testing, integration
+testing, system testing, and user acceptance testing.
+The goal is to identify and fix bugs, ensure the
+application functions as expected, and meets the
+specified requirements.
+Deployment: Once the application passes all necessary
+tests, it is deployed to the production environment.
+This involves setting up servers, databases, and any
+required infrastructure. Deployment may be done
+on-premises or on cloud platforms.
+
+6.
+
+Ongoing
+Maintenance:
+After
+deployment, the application requires
+regular maintenance and support. This includes
+monitoring its performance, handling user feedback
+and support requests, and applying updates, bug
+fixes, and security patches. The goal is to ensure the
+application remains stable, secure, and up-to-date.
+
+Throughout the ADM process, project management
+methodologies like Agile or Waterfall can be employed
+to manage tasks, prioritize work, and ensure effective
+communication among the development team and
+stakeholders.
+It’s worth noting that ADM is not a linear process, and
+iterations may occur at various stages to incorporate
+changes, enhancements, or new requirements.
+Additionally, ADM may involve collaboration with multiple
+teams, including developers, testers, project managers,
+database administrators, and support staff to ensure
+the successful development and management of the
+application.
+
+Conclusion
+The goal of ADM is to deliver high-quality applications
+that meet user needs, while ensuring stability, security,
+and ongoing support. It requires adherence to project
+management methodologies, such as Agile or Waterfall,
+to effectively manage tasks and promote efficient
+communication.
+As technology continues to evolve, ADM must adapt
+to new trends and advancements. Cloud platforms,
+containerization, DevOps practices, and monitoring
+tools have become integral components in modern ADM
+workflows, enabling scalability, portability, and efficient
+management of applications.
+Overall, ADM plays a crucial role in the successful
+development, deployment, and maintenance of software
+applications, ensuring their reliability, functionality, and
+longevity in a rapidly changing digital landscape.
+
+About the Authors
+G.L.V. Prasad completed bachelors in Information Technology from JNTU-GV. Currently working as
+a Software Engineer Trainee in Cognizant Technology Solutions(Chennai) in Abbott project
+
+August 2023 | 35
+www.bytesthenewsletter.com
+
+Bytes
+
+Intelligent Planning with
+Machine Learning
+P. Ranjana
+Professor, Hindustan Institute of Technology and Science. Email: pranjana@hindustanuniv.ac.in
+Planning is important in everyday life especially in business
+can plan based on the previous market history but if there
+is not a steady growth in the business, then then they
+have to leave the outdated planning approach and go for
+an intelligent planning approach through the machine
+learning algorithms. Intelligent Planning with machine
+learning helps the managers to give frequent updates
+on the next possible outcomes. The planning types are
+discussed here.
+Planning is determining the sequence of action to achieve
+the goal Planning is the process of making correct
+decision to achieve the desired goal.
+Planning in Business: In business plans has to change so
+quickly to survive in the present market condition. The
+main challenges the company faces is to change the plan
+frequently with respect to the real time environment. The
+distance between the planning and taking action should
+be zero in terms of months, days, and hours.
+
+Logistics supply: This is supplying the right product to
+the right person. The time consumed for gathering the
+information and analysing the information is taken care
+by the machine-learning model. This can also help
+in recurring planning when and then needed by the
+organisation. It reduces the time for planning.
+Resource Planning: It is the way of identifying the
+resources and their needs
+Data Security: The problems faced in this digital
+transformation is the malware. The machine-learning
+model will help to predict the malware file. The ML
+algorithms can also report anomalies and helps to predict
+security breaches.
+Improved Customer Experience: The ML technology will
+recognise the user’s behaviour patterns. It keeps track
+of the routine work by analysis with more quickly and
+accurately than a human analyst.
+Powerful prediction ability: Business will get a more
+accurate forecasting capability by incorporating the
+machine learning models into the data analytics.
+
+Planning and Decision-making
+Improved customer Experience
+
+Resource Planning
+
+Planning is the task of getting the sequence of action to
+achieve the goal. While decision-making is the sequence
+of action that sill transform the state in a step-by-step
+manner and satisfies the goal.
+Planning can be classified as Offline and online planning
+as given in Figure 2.
+
+Business
+Powerful
+predictiion
+ability
+
+Planning Types
+Increased Data Security
+
+Planning
+Inbound logistics planning
+
+Fig. 1: Benefits of ML in Business
+Some of the benefits of Machine Learning in Business is
+listed below
+
+Offline Planning
+
+Online Planning
+
+Fig. 2: Planning Types
+
+36 | August 2023
+www.bytesthenewsletter.com
+
+offline planning will not receive the feedback about the
+current state. Ex. Crane and Robot
+The online planning needs the feedback about the
+execution status. Ex.Autonomous Vehicle
+
+learning provides guidance to the business
+managers about next possible solutions and
+outcomes.
+
+Planning with AI and RL through Robot
+Artificial Intelligence (AI)
+Planning
+
+Reinforcement Learning (RL)
+Planning
+
+AI planning depends on decision
+making
+
+RL planning depends on the
+previous knowledge by interacting
+with the real world
+
+Allows robot to carry out the task
+in the same direction without
+acquiring knowledge
+
+Allows robot to adapt to the
+environment with previous learning
+experience
+
+Robot can take decision only by
+planning and decision
+
+Robot can learn the behaviour and
+adapt to changes
+
+Robot interacts with the surroundings using the above
+features listed in the Figure 3. sensing allows robot to
+collect the information. This can be achieved through
+the cameras, microphones etc., Perception allows the
+robot to perceived and reason about the surrounding
+environment. Cognition is the intelligent behaviour of a
+robot to learn and reason about the how to behave. By
+doing the action, the robot changes the state. The robot
+interact with the outside world.
+The intelligent planning will help the business to do a
+forward-looking analytics and helps them to anticipate
+the business growth. Intelligent planning with machine
+
+Fig. 3 : Robot interacting with surroundings
+
+References:
+1.
+
+https://planning.wiki/guide/whatis/aip
+
+2.
+
+https://medium.datadriveninvestor.com/planningin-artificial-intelligence-5f498489605a
+
+3.
+
+https://researcher.watson.ibm.com/researcher/
+view_group.php?id=8432
+
+About the Authors
+Dr. P. Ranjana has been working as a Professor in Department of Computer Science and Engineering
+in Hindustan Institute of Technology and science, Completed M.E., Ph.D.in Computer Science and
+Engineering. Current research is focused on Artificial Intelligence and machine learning algorithms.
+Published nearly 60 research papers in res refereed International Journals and Conferences.
+
+August 2023 | 37
+www.bytesthenewsletter.com
+
+Bytes
+
+Enhancing Code Quality and Security:
+The power of SonarQube in software
+development
+Gurram Niharika
+Associate Engineer, Digital Energy Solutions Business at Larsen & Toubro, Indore. Email: gurramniharika01@gmail.com
+
+Introduction
+In the fast-paced world of software development,
+maintaining high-quality, secure, and optimized code is
+crucial for building robust applications. As developers, it
+is essential to follow best practices, coding guidelines,
+and design patterns to ensure that the codebase is wellstructured and efficient. However, manual code reviews
+and analysis can be time-consuming and error-prone.
+To address this challenge, static code analysis tools
+like SonarQube have emerged as valuable assets in the
+software development process. In this article, we will
+explore the significance of static code analysis, the role
+of SonarQube, and its benefits in enhancing code quality
+and security.
+
+The Significance of Static Code Analysis
+Static code analysis plays a crucial role in the software
+development process by examining the source code
+without execution, enabling developers to proactively
+identify potential issues, bugs, and vulnerabilities
+before deployment. This process offers several valuable
+benefits. Firstly, early bug detection is facilitated, allowing
+developers to address bugs at an early stage and
+minimize the time and effort required for fixing them in
+later development phases. Moreover, adhering to coding
+guidelines and best practices during static analysis results
+in a well-structured, readable, and maintainable codebase,
+thereby enhancing code quality. Additionally, static
+analysis tools excel at identifying security vulnerabilities
+and potential entry points for cyber-attacks, ensuring the
+safeguarding of sensitive data. Lastly, analyzing the code
+for performance-related issues empowers developers
+to optimize critical sections and enhance the overall
+performance of the application, ensuring an efficient and
+reliable end-product.
+
+SonarQube: A Game-Changer for Code Quality
+Management
+SonarQube, developed by SonarSource, is a widely
+
+used open-source platform for continuous code quality
+management. It provides a comprehensive set of static
+code analysis tools to detect code smells, bugs, security
+vulnerabilities, and performance bottlenecks across 20+
+programming languages.
+
+Key Features of SonarQube
+SonarQube boasts a rich array of key features that
+make it a comprehensive and powerful static code
+analysis platform. Firstly, its multi-language support is a
+significant advantage, as it accommodates a wide range
+of programming languages, making it suitable for diverse
+development environments. Moreover, developers have
+the flexibility to customize and establish their own coding
+rules and quality profiles, ensuring that the code analysis
+aligns with the specific requirements of their projects.
+Additionally, SonarQube seamlessly integrates with
+popular build tools such as Maven, Gradle, and Jenkins,
+allowing for automatic code analysis during the build
+process. This integration enables continuous inspection of
+code quality, offering immediate feedback to developers
+throughout the development phase. Furthermore,
+SonarQube’s security analysis is a crucial component,
+as it checks the code against well-known vulnerability
+databases like SANS and OWASP, promptly identifying
+potential security risks and empowering developers
+to address them proactively. The amalgamation of
+these features makes SonarQube an invaluable tool for
+enhancing code quality, optimizing performance, and
+ensuring the security of software applications in modern
+software development practices.
+
+Benefits of Using SonarQube for Code
+Optimization
+
+
+Code Quality Improvement: SonarQube helps
+enforce coding standards and best practices, leading
+to cleaner, more maintainable, and better-structured
+code.
+
+38 | August 2023
+www.bytesthenewsletter.com
+
+
+
+
+
+
+
+
+
+Early Bug Detection: By identifying bugs and code
+smells during development, SonarQube enables swift
+bug fixing and reduces the risk of critical issues in
+production.
+
+def calculate_total_price(cart_items):
+total_price = 0
+for item in cart_items:
+ product
+=
+product_id)
+
+Security
+Vulnerability
+Detection:
+With
+its
+comprehensive security analysis, SonarQube assists in
+mitigating security risks and preventing potential data
+breaches.
+Performance Optimization: SonarQube’s performance
+analysis identifies bottlenecks and suboptimal code,
+enabling developers to optimize critical sections of
+the application.
+Continuous Integration and Feedback: By integrating
+SonarQube into the CI/CD pipeline, developers
+receive real-time feedback, fostering a culture of
+continuous improvement.
+
+Example: Uncovering Performance Bottlenecks
+with SonarQube
+Consider a team of developers working on an e-commerce
+website. As the website gains popularity, they notice that
+the website’s performance is starting to degrade, leading to
+slower response times and dissatisfied users. They decide
+to investigate the issue and optimize the application’s
+performance.
+To identify potential performance bottlenecks, they turn
+to SonarQube’s performance analysis capabilities. After
+running a comprehensive scan, SonarQube points out a
+specific function that seems to be causing the slowdowns:
+
+fetch_product_from_database(item.
+
+item_price = product.price * item.quantity
+total_price += item_price
+return total_price
+```
+
+At first glance, the code seems reasonable, but SonarQube’s
+analysis reveals the hidden inefficiency. The function is
+making repeated calls to the database for each item in the
+shopping cart to retrieve product prices.
+
+Conclusion
+In the dynamic world of software development, ensuring
+code quality, security, and optimization are essential for
+delivering reliable and high-performing applications.
+SonarQube has emerged as a powerful tool for static
+code analysis, helping developers identify and address
+issues early in the development process. By leveraging
+SonarQube’s capabilities, development teams can
+enhance code quality, mitigate security risks, and optimize
+application performance. As the software development
+landscape evolves, tools like SonarQube play a pivotal role
+in achieving code excellence and ensuring that applications
+meet the highest standards of quality and security.
+
+About the Authors
+Gurram Niharika currently working in the power domain as an Associate Engineer in the Digital
+Energy Solutions Business at Larsen & Toubro, contributing to the development and implementation
+of innovative solutions in the digital energy sector.
+
+August 2023 | 39
+www.bytesthenewsletter.com
+
+Dynamic programming
+Crossword Puzzle
+The crossword puzzle will include terms related to dynamic programming, and readers
+can solve it with the given clues. Here’s the crossword puzzle:
+Crossword Puzzle: Dynamic Programming Terms
+
+Clues:
+Across
+1.
+
+A flying mammal that sleeps during the day (3 letters).
+
+2.
+
+A rodent often found in urban areas (3 letters).
+
+Down
+1.
+
+A small domesticated carnivorous mammal (3 letters).
+
+2.
+
+A head covering often worn for warmth (3 letters).
+
+Note: The crossword grid and clues above are meant to be placeholders.
+
+

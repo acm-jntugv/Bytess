@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Pipelines architecture and basic understanding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            transform: scale(1);
+            transition: transform 0.3s;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .sub-heading {
+            color: #007bff;
+            font-size: 27px;
+        }
+
+        .content {
+            text-align: justify;
+            padding: 20px 0;
+            animation: slide-up 1s ease-out;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Data Pipelines architecture and basic understanding</h1>
+</div>
+
+<div class="container">
+    <div class="image-container">
+        <img src="https://bytesthenewsletter.com/images/data_pipelines.png" class="image">
+    </div>
+
+    <div class="content">
+        <h2 class="sub-heading">Introdution</h2>
+        
+        <p>
+Data pipelines are the series of steps performed to process the data into required formats/ destination sources. In these pipelines the output of each step will be source to the following steps. There are different scenarios where the pipelines are designed, it can be a simple batch job to read raw data and convert it into formatted data and saving into sources tables, consuming data from the upstream applications and perform transformations so that the data could be utilized by the downstream applications or creating visualizations using the transformed data etc. There are three major factors that contribute to the speed with which the data flows in a pipeline, Throughput can be defined as the rate at which the data flows through the pipeline. Latency is defined as the time required for a single unit/token of data to flow through the pipeline. Reliability is the measure completeness and accuracy. There are different techniques that are in place to ensure the data reliability like logging, auditing, validating etc. There are some basic questions one should have before building a pipeline. .What data source? .What type of ingestion? .How frequent should the load happen? .How should the end data look like? .Is the data consumed by any downstream applications or any visualizations are to be built on top of it?</p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Data Source</h2>
+        
+        <p>It can be considered as the first and key layer of the design. It may include the data from any streaming sources, SaaS applications and relational databases etc.</p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Ingestion</h2>
+        
+        <p>It is defined as a process to read the data from the data sources. We can read the data from each source using the API’s provided by the data sources itself. Before reading the data, we need to analyze the data sets to gain insight of the data through a process called Data Profiling, which is used to examine the quality and structure. The data can be ingested either batch ingestion or streaming ingestion. Batch Ingestion is a sequential processing where the set of data records can be extracted and processed together. These batch processes can be scheduled or triggered manually. In Stream ingestion a single record of data can be processed automatically from the data source as soon as it is created or in time windows which can be used to give near real time data. This ingestion or extraction frequency depends on the requirement on how the subsequent application need the data to be loaded.
+</p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Transformation</h2>
+        
+        <p>Once the data extraction is done, we can transform the data into the required format of the destination system, which helps to analyze the data. Destination: A destination is a data warehouse, a database or a data mart to hold the data after the data is processed</p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Author</h2>
+        
+        <p>About the Author Lohit Ravi Teja Bhupati is currently working as Data Engineer at Walmart, Arkansas. He has done Masters thesis in Machine learning and Neuro imaging from University of Houston Clear lake, USA. With his interest towards Machine learning and data analysis, he is always upscaling by learning new technologies and continuing his passion.</p>
+    </div>
+</div>
+
+</body>
+</html>

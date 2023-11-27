@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enhancing the efficiency of software defect
+        prediction models built on imbalanced data
+        using oversampling methods
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image {
+            max-width: 100%;
+            height: 400px;
+            transform: scale(1);
+            transition: transform 0.3s;
+            border-radius: 30px;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .sub-heading {
+            color: #007bff;
+            font-size: 27px;
+        }
+
+        .content {
+            text-align: justify;
+            padding: 20px 0;
+            animation: slide-up 1s ease-out;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    .profile{
+        border: 2px solid black;
+        border-radius: 30px;
+        padding: 40px;
+        margin:20px;
+        
+    }
+    .profile label{
+        color: #007bff;
+    }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Enhancing the efficiency of software defect
+        prediction models built on imbalanced data
+        using oversampling methods
+    </h1>
+</div>
+<div class="profile">
+    <label>Name:</label><p>Tantati Karunya
+    </p>
+    <label>Designation:</label><p>Front-end developer at SAILS software solutions.
+    </p>
+    <label>Email:</label> <p>thetantati@gmail.com</p>
+    
+</div>
+
+<div class="container">
+    <div class="image-container">
+        <img src="https://www.researchgate.net/publication/275114721/figure/fig1/AS:670045382381574@1536762676099/Proposed-software-defect-prediction-method.png" alt="Your Image" class="image">
+    </div>
+    <p>Software defect prediction (SDP) is essential to analyze and identify defects present in a software
+        model in the early stages of software development. The identification of these defects and their early
+        removal provides cost-efficient software. Machine learning (ML) techniques have been successfully
+        used for developing defect prediction models. However, these techniques deliver off-target results
+        when implemented on imbalanced datasets. For example, a dataset with unequal class distribution is
+        technically imbalanced. Thus, ML techniques on such imbalanced data lead to a biased prediction of
+        minority class instances, which are more important than majority class instances. Therefore, the
+        imbalanced data problem must be resolved to successfully develop an efficient SDP model. A study on
+        “Efficiency of oversampling methods for enhancing software defect prediction by using imbalanced data”
+        evaluated the prediction capability of ML classifiers for software defect prediction on nine imbalanced
+        NASA datasets by applying oversampling methods. A set of five oversampling methods were considered
+        to synthesize minority class instances and make the datasets balanced. These oversampling techniques
+        replicated or synthesized the instances of minority classes to balance the datasets. When the datasets
+        were balanced, ML classifiers were used to develop a defect prediction model. The experimental results
+        acquired by applying ML classifiers on the imbalanced and balanced data showed an enhancement in
+        the learning capability of ML techniques with the implementation of sampling techniques. Oversampling
+        methods considerably improved the prediction performance of the ML classifiers.
+        </p>
+    <div class="content">
+        <h2 class="sub-heading">Introduction</h2>
+        
+        <p>The development of software systems is the driving force
+            of the modern world. Nowadays, software is being used in
+            all fields. High-quality software with excellent performance
+            is required to achieve a competitive edge in the market.
+            With major digital transformations of organizations,
+            software-based innovation and development expand
+            rapidly, which results in balancing value delivery at a high
+            speed without sacrificing quality. However, this balance
+            cannot be easily attained. In most organizations, software
+            quality lags behind other objectives. Quality negligence
+            leads to a drawback, which is reported in this NIST report.
+            Although organizations can monetize the business value
+            of speed, they rarely measure the offsetting cost of poor
+            quality. In 2020, the total cost of poor software quality
+            (CPSQ) in the U.S. was $2.08 trillion (T). Moreover, a NIST
+            report indicated the U.S. figure for 2020 for the technical
+            software debt of severe defects that require correction
+            to be $1.31 T (without interest); however, this report
+            did not include technical debt for total CPSQ because
+            it represents an increasing future cost (14% increase
+            since 2018). Software defect prediction assists software
+            practitioners in efficiently allocating test resources,
+            to predict potentially defective modules in a software
+            product. Several machine learning (ML) techniques
+            have been proposed for software defect prediction;
+            however, no common consensus regarding dominant
+            classifiers is available. Thus, designing a reliable defect
+            prediction model remains challenging. Software defect
+            prediction (SDP) models are used to analyze and identify
+            defective modules present in the software. These models
+            predict whether a software module is prone to defects.
+            In software products, defects may lead to failure or
+            undesirable outcomes in software. Therefore, developers
+            should use a model that can provide accurate predictions
+            of software defects to identify the defective models in
+            the early development stages and rectify them to acquire
+            high-quality software. ML classifiers were initially used
+            to design software defect prediction models. However,atasets used for software defect prediction comprise
+            more nondefective instances than defective instances;
+            this result is termed the class imbalance problem.
+            Furthermore, various studies on defect prediction models
+            have confirmed that approximately 80% of defects are
+            observed in limited modules (approximately 20%), which
+            indicates that minority classes host more instances
+            of defects than non-defective majority classes. Thus,
+            applying ML techniques to such imbalanced data leads
+            to biased results of minority class instances. Therefore, to
+            effectively handle an imbalance in datasets, oversampling
+            methods have been employed. A paper on “Efficiency of
+            oversampling methods for enhancing software defect
+            prediction by using imbalanced data” implemented five
+            oversampling techniques to balance the imbalanced
+            data and five ML classifiers to develop a defect prediction
+            model. The oversampling techniques used are random
+            over sampler, synthetic minority oversampling technique
+            (SMOTE), adaptive synthetic sampling (ADASYN), SL-SM,
+            and SVM-SOMTE. The ML classifiers implemented are
+            decision tree classifiers-j48- classifier, random forest
+            (RF) classifier, NaïveBayes (NB) classifier, and ensemble
+            Existing Software with quality metrics
+            and knowledge of defective or nondefective parts
+            
+            Developed new software with
+            input as quality metrics and
+            unknown output Training data
+            Testing data Software Defect prediction model
+            Defective models Non Defective
+            learning classifiers, that is, Adaboost (AB) and Bagging (BG)
+            classifiers. To obtain the effect of oversampling methods
+            on the development of defect prediction models, it
+            </p>
+            <p>Q1:  
+                What is the impact of using
+                oversampling
+                techniques
+                to
+                generate defect prediction models by using ML
+                classifiers?
+                </p>
+               <p> Q2:	 
+Do balanced datasets improve the prediction
+capability of ML classifiers? If yes, what is the
+extent of improvement?</p>
+<p>
+Q3:Which oversampling technique used provides the
+optimum results to develop a defect prediction
+model?</p>
+
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Outcome:</h2>
+            <p>The study has investigated whether the performance of
+                defect prediction models improved when the datasets
+                were balanced. It used five oversampling methods,
+                ROS, SMOTE, ADASYN, SL-SMOTE, and SVM-SMOTE, to
+                overcome the class imbalance problem. Five ML classifiers
+                were used to develop the defect prediction models: J48,
+                random forest, Naïve Bayes, AB, and BG. When the datasets
+                were balanced, the ML classifiers were used to develop
+                defect prediction models. The results were analyzed by
+                evaluating the accuracy of defect prediction models
+                for the ML classifiers and oversampling methods. The
+                performance of oversampling methods was compared to
+                identify the optimum oversampling technique.
+                The following are the main findings of our study. First,
+                balancing the data by using oversampling methods
+                enhanced the prediction capability of defect prediction
+                models: A considerable increase in the performance
+                of the ML classifiers was observed when oversampling
+                techniques were used to overcome the data imbalance
+                problem. When various oversampling methods were
+                used to balance the datasets, the capability of the ML
+                classifiers to predict the defectiveness in software
+                increased to as high as 80%. SVM-SMOTE was the optimal
+                oversampling method because of the capability of SVMSMOTE to synthesize minority class instances in a safe
+                region bounded by support vectors. Furthermore, SMOTE
+                and ADASYN oversampling performed well. Hence, the
+                analysis of this study can be used by researchers working
+                in the defect prediction domain.
+                </p>
+            
+                
+            
+    <div class="content">
+        <h2 class="sub-heading">Reference:</h2>
+        
+        <p>
+            Efficiency of oversampling methods for enhancing software
+defect prediction by using imbalanced data TR Benala, K
+Tantati - Innovations in Systems and Software Engineering,
+2022
+            </p>
+            
+           
+            
+    </div>
+   
+    
+    <div class="content">
+        <h2 class="sub-heading">About the Author</h2>
+    <p>Tantati Karunya is currently working as a Front-end developer at SAILS software solutions. She has
+        done her bachelors in Information Technology from JNTUK-UCEV Vizianagaram. Her fascination is
+        with software applications and design systems. she has published her journal in
+        Innovations in Systems and Software Engineering, 2022.
+        
+        
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

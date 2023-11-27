@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            transform: scale(1);
+            transition: transform 0.3s;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .sub-heading {
+            color: #007bff;
+            font-size: 27px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px 0;
+            animation: slide-up 1s ease-out;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Campaigns using personalization and recommendations to boost revenue
+    </h1>
+</div>
+
+<div class="container">
+    <div class="image-container">
+        <img src="data:image/png;base64,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" alt="Your Image" class="image">
+    </div>
+
+    <div class="content">
+        <h2 class="sub-heading">Introduction</h2>
+        
+        <p>E-commerce is growing exponentially with companies going ahead with digital-first mindset and with more and more players entering into this segment, the competition is immense. However, businesses that understand personalization are the ones growing at an accelerated rate by creating engaging human connections. Creating unique experiences for large audiences isn’t easy. Implementing personalization at scale is complex, involving transformation of your data, content, teams, and technology. But the effort is necessary, given 80% of B2C customers and 84% of B2B customers feel that personalization saves them time by making it easier to find information and settle decisions.
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Example</h2>
+        
+        <p>The target is to enable marketers and sales to deliver and optimize highly personalized experiences on any website through recommendations and personalization. To serve the most appropriate content and offers to audiences based on contextual data such as user browsing, search, and product purchase history. To provide an omni- channel solution that improves the visitor experience on any surface or screen customers engage with, including websites, native mobile apps, set-top boxes, kiosks, and more. Personalized Recommendations uses a combination of sophisticated algorithms to develop recommendations for individual users. Among these are Item-Item Collaborative Filtering, which uses a novel similarity metric that corrects for popularity bias and allows for the exploration of long-tail items in recommendations. We also use content-based similarity algorithms that produce recommendations purely based on the descriptions of items in your product catalogues, with precise controls allowing you to tune the relative importance of different words to produce exactly the recommendations you want. Finally, we use popularity-based algorithms that recommend items based on top viewed, top purchased, and top viewed items among users who share a profile attribute, and others. In addition to above, the apps has to run A/B tests that optimise the overall website experience for all customers. It helps business owners understand their customers and chose the best workflow for them. The journey doesn’t end on the website, it continues even after the website visit through SMS, emails and in-app notification campaigns.
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">About</h2>
+        
+        <p>Campaign is a cross-channel marketing campaign management solution that enables organizations to  bring customer data from different systems, devices, and channels into a single profile and deliver timely and relevant campaigns to these customers. With this, companies can understand and define unique customer segments and then craft multi-step, cross-channel campaigns that make meaningful connections with each customer.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Managing Data
+        </h2>
+        
+        <p>All of the above has to deal with giga bytes of user’s data. Profiles built from streaming data collection. The following can help with managing the data.  Enriched, privacy-ready consumer and account profiles update automatically based on behavioural, transactional and operational data without manual data stitching.  Data collected from across channels and systems is normalised into a standard taxonomy.  Tag management and event forwarding manage data in real time.  Data privacy and security is very important. Patented data governance framework ensures customer privacy and preferences, enables compliance with internal and external policies and gives role-based access to teams across the enterprise.  Live preview of user’s data helps businesses deliver latest recommendations. And at the end we need a Holistic reporting which helps marketers to understand the impact of their campaigns so that they can create better experiences for their customers in the future. The campaign reporting feature must facilitates the creation of dynamic reports to analyse the success of your campaigns in the real time. Depending on the complexity of your queries and calculations, the data must be aggregated into a list view or accessed in a format that makes it easy to generate marketing analytics reports. I know all this is a lot to churn but great businesses go to any extent to provide great experiences to their customers. We at Adobe has all features mentioned above so that businesses can tailor their customer experience using Adobe experience cloud.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Author</h2>
+        
+        <p>Vikram Gupta a front-end architect at Adobe Systems with 12+ years of experience providing high- impact web solutions for diverse industry organizations. He loves working on improving web app performance and developer experience and sharing knowledge and giving back to the community. He likes traveling, reading books, and playing Badminton, and TT in his free time.</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+     <title>bytesthenewsletter</title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">BYTESS</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">BYTESS</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#collect">Articles</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h1 style="text-align: center;font-size: 40px;margin-top: 100px;">BYTES THE NEWSLETTER</h1>
+    <div style="align-items: center;text-align: center;margin-top:30px;"id="home">
+        <img src="./faculty.jpeg" style="max-width: 100%; height:auto;display:flex; margin: 0 auto; border-radius: 30px; border: 2px solid black; margin-bottom: 30px;"/>
+    
+    <h1 id="about" style="text-align: center;">ABOUT US</h1>
+        <div style="margin: 40px;font-size: 20px;">
+            <p class="responsive-paragraph">The Department of Information Technology is launching a newsletter, "Bytes," which encompasses state-of-the-art development in IT industries, competitive programming nuggets, Cutting edge problem-solving techniques, student and faculty achievements. This unique newsletter creates a platform for Alma matter to contribute articles on best industry practices. This approach helps current students to get acquainted with the latest technology. Active participation in alma matter is the primary goal of this newsletter. It serves the department and institution growth twofold. Firstly, the industry's best practices can be reflected in our student community through their alums. It makes more sense to the students. Secondly, it helps to bridge the gap between industry and academia. It's the dream of any computer science/Information Technology graduate to join companies like Meta, Apple, Google, etc. The newsletter devotes a particular column to algorithm design techniques and their importance in MAANG companies. "Bytes" will act as a platform to nourish coding techniques to crack such companies. We invite our research collaborators and academicians to share a glimpse of fundamental research to enable our faculty and students to solidify their research quotient.</p>
+        </div>
+    </div>
+    <h1 id="collect" style="text-align: center;">COLLECTIONS</h1>
+    <div class="container">
+        <div class="box">
+            <img src="./bytes1.jpeg" alt="Image 1">
+            <h3>An Artificial Intelligence Balloon</h3>
+            <a href="./Bytes(1-1).html"><button>Read</button></a>
+        </div>
+        <div class="box">
+            <img src="./bytes2.jpg" alt="Image 2">
+            <h3>Datascience & Advanced Analytics</h3>
+            <a href="./Bytes(1-2).html"><button>Read</button></a>
+        </div>
+        <div class="box">
+            <img src="./bytes3.jpg" alt="Image 3">
+            <h3>Innovating The Future</h3>
+            <a href="./bytes(2-1).html"><button>Read</button></a>
+        </div>
+    </div>
+       <div>
+        <h2 id="contact" class="slide-up" style="text-align: center;margin: 20px;">CONTACT US</h2>
+        <h2 style="color: #1a1a1a; font-weight: 800; text-align: center;">Submit your articles to mail:
+            <a href="mailto:bytes.newsletter@gmail.com">bytes.newsletter@gmail.com</a>
+        </h2>
+    </div>
+    <script>
+        const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+// js code to toggle dark and light mode
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        // js code to keep user selected mode even page refresh or file reopen
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      });
+
+// js code to toggle search box
+        searchToggle.addEventListener("click" , () =>{
+        searchToggle.classList.toggle("active");
+      });
+ 
+      
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+
+    </script>
+
+</body>
+</html>

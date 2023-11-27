@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart Assignment Led by AI-Driven Methodologies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        .header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .content {
+            text-align: justify;
+            padding: 20px 0;
+        }
+        
+        .sub-heading {
+            color: #007bff;
+            font-size: 27px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Smart Assignment Led by AI-Driven Methodologies</h1>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2 class="sub-heading">Pinniti Gurunaidu</h2>
+            <p>Senior Data Scientist, Insurance Tech Company, Singapore</p>
+            <p>Email: gurunaidupinninti@gmail.com</p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Introduction</h2>
+            <p>Often job or task assignments to the work professionals used to be manual in nature or in the semi-automated process by using some definite rules. This leads to a problem of finding the right person to attend to the right task. If the complexity
+                of the task increases and finding the suitable professional is even more tedious and time-consuming effort. The very same problem can be tackled smartly with the use of Machine learning, Natural Language Processing, and Linear Programming
+                methodologies if a certain amount of demographic information of the professionals and transactional details of past jobs or tasks are available in digital records either in flat files or database tables. Let's deep dive into addressing
+                some of the approaches of Smart Assignment.</p>
+            <p>Before finding a solution to any problem thus identifying methodologies, the following questions need to be well thought of:</p>
+            <li>What kind of tasks are going to be handled by workers?
+
+            </li>
+
+            <li> Do we know much about these workers in terms of their professional expertise ? Is that information readily available ?</li>
+
+            <li>
+
+                Are we tackling the big problem or small problem ?
+
+            </li>
+
+            <li>Are we going to throw garbage at the ML models ?
+            </li>
+            <li>
+
+                How big is the task pool data ?</li>
+            <li>
+
+                Are there any required time constraints for making assignments?
+            </li>
+
+            <p>Certain degree of understanding on the actual problem statement and purpose of the solution will give us finite clues to tackle the problem in a finite way rather than failing fast.</p>
+            <p>
+                Although the assignment can be done in various ways, this article is focusing on the one [(1)] of the following two approaches;
+            </p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Task Driven Approach</h2>
+            <p>Smart Assignment is completely based on the nature of the task. The detailed discussion on this topic covered in the later part of this paper.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">User Driven Approach</h2>
+            <p>Smart Assignment is completely based on the different users attending the different tasks. In this approach, we try to identify if userA has done task1, can userB be able to attend task2 where task2 is similar to task1? This can be coined
+                as profiling the users based on the tasks they have attended.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Task Driven Approach</h2>
+
+            <p> This methodology certainly uses all the historical tasks carried out by the workers. Then using clustering and word embedding models, tasks further then be grouped based on the similarities among the tasks. Each group thus contains the similar
+                tasks that were carried out by different or same workers.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Conceptual Understanding</h2>
+            <p>Clustering can be done using Agglomerative Hierarchical clustering[i] or distance based K-means clustering and the word embeddings can be formed using either tf-idf aka Term Frequency Inverse Document Frequency[ii], word2vec[iv], pre-trained
+                sentence transformer BERT aka Bidirectional Encoder Representations from Transformers models either from spacy or Hugging Face[iii]. These embeddings will be fed to clustering models and the Elbow method will be used to determine the appropriate
+                number of clusters[v]. Silhouette Score can be used to further strengthen selecting the right embedding model and usually this score ranges from -1 to 1 where -1 denotes the data points that are not placed in right clusters though the
+                clusters were formed with utmost separable distance between each cluster centroids, 1 denotes the data points that are placed in right clusters that were formed with utmost separable distance between each cluster centroids and 0 denotes
+                that the clusters are completely overlapped or data points are not separable. The higher the positive score of the Silhouette score tends to vote the better the model.
+            </p>
+            <p>As we are dealing with text-based data, it is better to form Word-clouds using each embedding model and further tune if the model results were not satisfactory. The word clouds need to be further examined using Domain Knowledge and subject
+                matter expert (SME) advice, thus it requires careful pre-processing of the data.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Detailed Methodology</h2>
+            <b>Pre Processing</b>
+            <p>Each task that was completed has the username, description, start and end times along with the task notes. Those tasks for a certain period of data have been collected via a set of SQL queries. For each task, task notes and description were
+                appended in the sequence that were recorded so as not to lose the actual meaning of the task.</p>
+            <p>Each task further then be named as a document in NLP for understanding purpose. Each document has been preprocessed by removing stop words, special characters and applied lemmatization and stemming (techniques that used to find root and similar
+                words) and using some business oriented regex rules</p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Model Training</h2>
+            <p>These processed documents are the final documents that need to be supplied for the embeddings. Pick the standard splitting of the documents as training and test sets. On the training data set, embeddings have been created using different models
+                like tf-idf, pre-trained bert models like all-mpnet-base-v2, paraphrase-MiniLM-L3-v2 etc and those embeddings be further submitted to k-means clustering models to group them into a finite number of clusters. Each document will be assigned
+                a cluster number based on k-means fitted model. </p>
+            <p>Our main task is to identify the best embedding model. This can be achieved in different ways, silhouette score and processing time of the model were used to determine the best model in this paper. The best aka highest positive silhouette
+                score and least processing time that model yields will be voted as the best model. But, strictly depending on this method may induce some incorrect results, so need to apply further business logic by consulting SME(Subject Matter Experts)
+                and further tune the embedding models.</p>
+
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Prediction</h2>
+            <p>On the Test data set, embeddings will be created using the best model that have been selected in the training phase for each document. Then use the same k-means model to predict the cluster for each document. Then validate the clusters manually
+                and with SMEs to further fine-tune the models by retraining if the induced results were not satisfactory.
+            </p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">Recommendation</h2>
+            <p>For every new task, do the pre-processing, predict the cluster using the chosen embedding model and k-means clustering. Once the cluster is identified, pick the same cluster data from the training data set and identify the most frequent unique
+                top n usernames and recommend them as the workers can attend the task to complete the work in the initial stages. Run these recommendations for a certain amount of period and validate the results with SMEs and see if further retraining
+                is needed. If the recommendations were satisfactory for a finite period, proceed to Assignment Phase.
+            </p>
+        </div>
+        <div class="content">
+            <h2 class="sub-heading">Smart Assignment</h2>
+            <p>Once the recommendations were satisfactory, to do the direct worker assignment smartly, there are many ways of doing it. One approach is with the help of Linear Programming[vii]. It does require.</p>
+            <ul>
+                <li><b>Initialize Model:</b> either it could be a maximisation or minimization problem that depends on the motto we are achieving and accordingly that model will be initialised.
+                </li>
+                <li><b>Define Decision Variable:</b> The key variables used for optimising the problem are the worker demographics(worker timings, worker experience, education levels, proficiency, past work performance), complexity of the work, etc</li>
+                <li><b>Define Objective Function:</b> Pick either maximisation or minimization model</li>
+                <li><b>Define the Constraints:</b> for each decision variable need to have boundary conditions and either in combinatory or mono.</li>
+                <li><b>Solve Model:</b> then solve the problem using the initialised model. The model yields the optimised values for each submitted decision variables
+                </li>
+            </ul>
+            <p>For the new document, predict the cluster and pick the same cluster documents from trained data. Then apply the optimization model on all the available workers from that group, choose the most optimised model score that belongs to the worker
+                and that worker will be assigned to that task to attend the work. On the contrary, the hardest part is to extract real time worker demographics.</p>
+        </div>
+        <div class="content">
+            <h2 class="sub-heading">Feedback and Model Maintenance</h2>
+            <p>Collect the feedback for each assignment, mark 1 if the user accepts the assignment, 0 if not. Get all the feedback score over a period of time and see the drift of the scores over day by day or shift by shift and alert or feedback to the
+                management about the results and also update if the model retraining is required as declining rate is significant compared to acceptance rate or maybe some sort of training to be given to workers to understand the approach in layman terms.</p>
+        </div>
+        <div class="content">
+            <h2 class="sub-heading">Future Work</h2>
+            <p>The very same assignment problem can be solved using collaborative filtering and different optimization algorithms to further add the smartness into the assignments.</p>
+        </div>
+
+        <div class="content">
+            <h2 class="sub-heading">References</h2>
+            <ul>
+                <li><a href="https://nlp.stanford.edu/IR-book/html/htmledition/hierarchical-agglomerative-clustering-1.html">Hierarchical
+                        Agglomerative Clustering</a></li>
+                <li><a href="https://link.springer.com/referenceworkentry/10.1007/978-0-387-30164-8_832">Linear
+                        Programming</a></li>
+                <li><a href="https://www.sbert.net/docs/pretrained_models.html">Pre-trained BERT Models</a></li>
+                <li><a href="https://www.tensorflow.org/tutorials/text/word2vec">Word2Vec</a></li>
+                <li><a href="https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/">Elbow Method
+                        for Optimal Value of K in K-Means</a></li>
+                <li><a href="https://towardsdatascience.com/simple-wordcloud-in-python-2ae54a9f58e5">Word Cloud in
+                        Python</a></li>
+                <li><a href="https://machinelearninggeek.com/solving-linear-programming-using-python-pulp/">Solving
+                        Linear Programming Using Python</a></li>
+            </ul>
+        </div>
+
+
+
+        <div class="content">
+            <h2 class="sub-heading">About the Author</h2>
+            <p><b>Pinniti Gurunaidu</b> is a Senior Data Scientist working at Insurance Tech Company, Singapore. He has overall 10+ years of experience in IT with 6+ years of DS experience. He leads and develops AI solutions and builds robust Data Pipelines.
+                In leisure times, he writes quotes in Telugu, volunteers, and runs. He holds a Master's in Information Systems from Nanyang Technological University, Singapore.</p>
+        </div>
+    </div>
+</body>
+
+</html>

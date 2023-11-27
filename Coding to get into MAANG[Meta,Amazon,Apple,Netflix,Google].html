@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image {
+            max-width: 100%;
+            height: auto;
+            transform: scale(1);
+            transition: transform 0.3s;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .sub-heading {
+            color: #007bff;
+            font-size: 27px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px 0;
+            animation: slide-up 1s ease-out;
+        }
+
+        @keyframes slide-up {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Coding to get into MAANG[Meta,Amazon,Apple,Netflix,Google]</h1>
+</div>
+
+<div class="container">
+    <div class="image-container">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACoCAMAAACCN0gDAAACQ1BMVEX///8lHyn8//8lICb///sAAAD9//////3//f8iHSMmISf/+//8//v5/fz8/Pz6/v+uHSA4fu2yHB7nHiTbrq0splOrCCUiISYjIyO0GCPpQC30uQP9//Uspk/nPicZExo3gOnDw8MKAAzkHykFYOUgHB3///fBvMK5YmzoICQIfvNAfvDi4uKnp6fz//wXFxfjt68AXt8SChOevOYAe+jW1taMjIw6Ojpvb2/1ysruzNCjDBvq6uqurq4ODg7r//wAWcwAUtIAfdu6b3UActWpCBDnITEFXunU8v2sp629z/Dl7/eMuemjPET//OgAaur77uACdvH43JlHomX7ph3e+e3vyoZEREQrKytWVlb74dryuLzkpqz728jspJXPcGDFSznTRTfMNCbakHn3w63/5erYhn3ETUTQOh/GbG3CGxiIABmJDyncqbjoPzrBPih+fn78y9TGFyLkkprRn4PWSUmqc2/IS1G8VUXcJDccDx3gcHfXfWLwOCK90+LQMkVVhssMYciey+hSlc0yi8IAesgGiOvIQlJxoOEAStV8t+XvyKG/SxjGWGz1vmzzkC3hVh7hsSposczedhU+dsay5OTjv1M+n+X7/dLEaDz39KDntwNog9j024j59bDG0u6JyO+kPVL0jZLdvRbAvnyGqzFtmVLBtx6UzqdjoyUznSuKod+ntCPT6LCw471pt3JcpII3iog2m285jLfi2LPooTbZnjcukp5xs6zeoQDPpyrvvYSRODfzz3HOp1HHjoek4rsHxceHAAAWA0lEQVR4nO2bj18TZ57Hx2QyM2FmnkGoVXRqIMBQIw4SEsASGIwBgrQJoCCgrbVbrdVby9K1rdtbCqGhlN665y5V7qwt3d27dbd7ttsV79hdu/en3ff7zATzi5/a9nZfz6eVF5BJMvPO98fn+8wDxzExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMXEcIfjl+z6LvxMBJ1IfYbg2qXDzKc8hoMV4bSTC1bd6PA2UFtOGCrc07Nmzx1PFaG1CVXtQtQ31398pCILgEjhFUAX4QdJcApGIInx/57OWCBcZqUVaDaPf41kIqqqZ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" alt="Your Image" class="image">
+    </div>
+
+    <div class="content">
+        <h2 class="sub-heading">Languages and Fundamentals
+        </h2>
+        
+        <p>Firstly choose a language and understand the basic fundamentals concepts such as variable declaration, basic syntax, data type and structures,flow control structures (conditions and loops), functional programming, recursion, object-oriented programming. Preferably, choose an object oriented language.
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Time and Space Complexity
+        </h2>
+        
+        <p>For a problem, there can be more than one solution. You need to come up with an optimal solution for a problem. If you come up with multiple solutions for a problem, how do you choose the optimal one? Here comes the concept of time and space complexity. It is really important to learn these concepts and given a solution you must be able to analyze the time and space complexity.
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Data Structures
+        </h2>
+        
+        <p>Understanding data structures is integral to participating in competitive programming, as you will be faced with making decisions on what data structure to utilize to most efficiently solve the problem you are given. Some important Data structures are: Arrays, Stacks, Queues, Linked List, Binary Tree, Binary Search Tree, Graphs, Tries, Hash tables, Heap. Some of the advanced data structures such as : Disjoint sets, Fibonacci Heap, Segment tree, Fenwick tree, B tree, B + tree, Self balancing binary tree (RB, AVL). Learning data structures alone is not sufficient but also trying to implement these data structures in your chosen language will be useful for better understanding. Try to understand and analyze the time and space complexities of the operations performed on each data structure. This will help you in choosing an appropriate data structure for solving a given coding problem.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Algorithms</h2>
+        
+        <p>Algorithms are used to find the best possible way of solving a problem. Why to reinvent a wheel ? Algorithms can make life easier for developers by arming them with a range of general problem solving techniques. Choosing the standard algorithm is equally important as choosing an appropriate data structure for solving a problem. Some of the standard algorithms are: Searching & Sorting ,Greedy algorithms ,Dynamic Programming, Pattern Searching, Recursive and Backtracking algorithms, Geometric Algorithms, Graph Algorithms, Bit Algorithms, Number theory algorithms. Try to understand and analyze the time and space complexities for each algorithm. Give an attempt to implement each algorithm you have learnt in the chosen language.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Debugging</h2>
+        
+        <p>One common mistake a beginner makes is not using the debuggers. Try to use the debugger to debug the code and find out errors where you have made the mistake.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Practice</h2>
+        
+        <p>Try to solve at least 200 questions on any of the platforms like LeetCode, HackerRank, GeeksForGeeks, CodeChef, CodeForces etc. Try to stick to one or two coding platforms in the beginning phase until you are confident enough in solving questions and get into the habit of coding. Stick to learn topic wise (data structure and algorithms) in the early days of coding. Try to pick a data structure,understand and implement it , and solve problems on this chosen data structure. In a race of solving the problems, don’t forget to build actually needed thought processes. It is more of quality rather than quantity while solving the problems. It is more important to solve problems from different topics.Try to be consistent in solving problems i.e. try to solve at least 2 problems per day. Don’t directly jump into solving the hard problems first as it may affect your confidence. Build confidence by first solving the easy problems,then medium and then hard problems.
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Giving Contests and Competitions
+        </h2>
+        
+        <p>After you think that you have got confidence in solving the problems, try to give contests in leetcode/codechef/ codeforces… Don’t get demotivated if you can’t solve a problem in the contest. Once the contest is finished, go through the discussion forums and try to understand various approaches. Even if you are able to solve the problem,try to check the other approaches which may be useful for solving other problems. Once you have enough practice in coding and giving contests regularly, you are now able to participate in competitions. Compete in competitions like ACM - ICPC, Google Code Jam, Facebook Hacker Cup. Happy coding
+
+        </p>
+    </div>
+    <div class="content">
+        <h2 class="sub-heading">Author
+     </h2>
+        
+        <p>Tharun Sai is currently pursuing his master’s in the stream of Computer science and Engineering at International Institute of Information Technology , Hyderabad.He is interested in Algorithms, Advanced Data Structures, Data systems,Operating systems.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
