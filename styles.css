@@ -19,6 +19,7 @@
     --heading-color: #4070F4; /* Adjusted heading color for both modes */
     --search-bar: #F2F2F2;
     --search-text: #010718;
+    
 }
 
 body{
@@ -64,7 +65,7 @@ nav .nav-bar{
 }
 
 nav .nav-bar .sidebarOpen{
-    color: var(--text-color);
+    color: var(--nav-color);
     font-size: 25px;
     padding: 5px;
     cursor: pointer;
