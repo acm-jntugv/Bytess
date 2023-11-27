@@ -97,7 +97,7 @@ nav .nav-bar .logo a{
     position: relative;
     font-size: 17px;
     font-weight: 400;
-    color: var(--text-color);
+    color: white;
     text-decoration: none;
     padding: 10px;
 }
