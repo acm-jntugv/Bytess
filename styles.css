@@ -65,7 +65,7 @@ nav .nav-bar{
 }
 
 nav .nav-bar .sidebarOpen{
-    color: var(--text-color);
+    color: white;
     font-size: 25px;
     padding: 5px;
     cursor: pointer;
